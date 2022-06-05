@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Complex, Block, Sizes
 
-# Register your models here.
+
+admin.site.register(Complex)
+admin.site.register(Block)
+admin.site.register(Sizes)

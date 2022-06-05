@@ -1,7 +1,7 @@
 
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-from complex import Complex
+from complex.models import Complex
 
 class UserRoleChoice(models.TextChoices):
     ADMIN = 'admin', 'Admin'
